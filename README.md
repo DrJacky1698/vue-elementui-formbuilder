@@ -1,4 +1,4 @@
-# vue-starter
+# vue-elementui-formbuilder
 
 
 ## Project setup
