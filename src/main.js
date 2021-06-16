@@ -3,6 +3,7 @@ import App from '@/App.vue'
 import router from '@/router'
 import store from '@/store'
 import ElementUI from 'element-ui';
+import draggable from 'vuedraggable';
 import 'normalize.css'
 import 'element-ui/lib/theme-chalk/index.css';
 // import locale from 'element-ui/lib/locale/lang/en'
@@ -15,6 +16,7 @@ import moment from 'moment'
 Vue.config.productionTip = false
 
 Vue.use(ElementUI);
+Vue.use(draggable);
 
 // 定义时间格式全局过滤器
 Vue.filter('dateFormat', function (daraStr, pattern = 'YYYY-MM-DD HH:mm:ss') {
