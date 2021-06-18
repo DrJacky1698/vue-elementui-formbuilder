@@ -19,6 +19,10 @@
       <i class="el-icon-s-tools"></i>
       <span slot="title">系统设置</span>
     </el-menu-item>
+    <el-menu-item index="/test">
+      <i class="el-icon-s-tools"></i>
+      <span slot="title">测试页面</span>
+    </el-menu-item>
   </el-menu>
 </template>
 
